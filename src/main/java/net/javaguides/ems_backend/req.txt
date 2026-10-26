@@ -1,0 +1,40 @@
+1. Department Entity & Mapping
+
+Create Department entity (id, name, description)
+Add @ManyToOne relationship in Employee (employee belongs to department)
+Add @OneToMany relationship in Department (department has many employees)
+Create DepartmentDto, DepartmentRepository, DepartmentService, DepartmentController
+Update Employee to include department field
+2. Pagination & Sorting
+
+Add Pageable parameter to getAllEmployees endpoint
+Return Page instead of List
+Support sorting by firstName, lastName, email
+Add page and size query parameters
+3. Filtering
+
+Filter employees by department
+Filter by name (firstName/lastName contains)
+Filter by email
+Combine multiple filters
+4. Validation
+
+Add @NotNull, @NotBlank, @Email annotations on EmployeeDto
+Add @Size for name length constraints
+Add @Pattern for custom validation
+Add @Valid annotation in controller methods
+Handle MethodArgumentNotValidException in global exception handler
+
+
+Feedback submitted
+
+
+
+
+Command Awaiting Approval
+
+
+
+
+
+
